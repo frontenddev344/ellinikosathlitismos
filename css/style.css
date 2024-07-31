@@ -207,13 +207,13 @@ header {
 
 }
 
-.text_wrapper.three {
+.text_wrapper.eco_three{
     background: url(../img/handball.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.text_wrapper.four {
+.text_wrapper.eco_four {
     background: url(../img/volleywall.jpg);
     background-size: cover;
     background-position: center;
