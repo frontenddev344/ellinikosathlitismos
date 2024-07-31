@@ -193,7 +193,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('../img/wrapperone.jpg');
+    background: url('../img/soccer.jpg');
     height: 350px;
     min-width: 300px;
     background-size: cover;
@@ -201,7 +201,7 @@ header {
 }
 
 .text_wrapper.two {
-    background: url('../img/wrappertwo.jpg');
+    background: url('../img/basketball.jpg');
 
 }
 
