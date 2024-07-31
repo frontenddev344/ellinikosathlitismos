@@ -183,7 +183,7 @@ header {
 }
 
 /* banner styling end */
-/* affordable styling start */
+/*sports styling start */
 .text_wrapper {
     box-shadow: 0 3px 3px 0px rgba(181, 149, 148, 0.5);
     border-radius: 0.32rem;
@@ -200,20 +200,20 @@ header {
     background-position: center;
 }
 
-.text_wrapper.eco_two {
+.text_wrapper.sports_two {
     background: url(../img/basketball.jpg);
     background-size: cover;
     background-position: center;
 
 }
 
-.text_wrapper.eco_three{
+.text_wrapper.sports_three {
     background: url(../img/handball.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.text_wrapper.eco_four {
+.text_wrapper.sports_four {
     background: url(../img/volleywall.jpg);
     background-size: cover;
     background-position: center;
@@ -230,8 +230,8 @@ header {
 .text_wrapper:hover {
     transform: translateY(4px);
     cursor: pointer;
-    box-shadow: 0 0px 0px 0px rgba(181, 149, 148, 0.5);
-    background-color: #eae7dc3d;
+    box-shadow: 0 0px 0px 0px #9c7edf;
+    background-color: #9c7edf;
 }
 
 .text_wrapper:hover p {
@@ -255,12 +255,12 @@ header {
     color: #fff;
 }
 
-section.affordable {
+section .sports {
     padding: 60px 0;
 }
 
 .text_wrapper h2 {
-    font-size: 24px;
+    font-size: 30px;
     padding-bottom: 10px;
     color: #fff;
     z-index: 1;
@@ -288,7 +288,7 @@ section.affordable {
     position: relative;
 }
 
-/* affordable styling end */
+/*sports styling end */
 /*privacy-policy start*/
 .privacy__section {
     position: relative;
