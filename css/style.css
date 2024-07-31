@@ -149,6 +149,7 @@ header {
 .detail {
     padding: 60px 0;
     text-align: center;
+    background: #ededed;
 }
 
 .banner_box {
@@ -257,7 +258,7 @@ header {
     border-radius: 5px;
 }
 
-section .sports {
+section.sports {
     padding: 60px 0;
 }
 
@@ -1011,7 +1012,7 @@ input.form-control.sub_btn:hover {
 }
 
 section.newsletter {
-    background: #efefef;
+    background: #ededed;
     margin-top: 50px;
     padding: 50px 0;
 }
