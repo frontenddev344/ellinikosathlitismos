@@ -251,8 +251,10 @@ header {
     position: relative;
     z-index: 999;
     margin-top: 10px;
-    text-decoration: underline;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 section .sports {
@@ -267,13 +269,6 @@ section .sports {
     margin-top: 40px;
 }
 
-section.sports a {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 10px 30px;
-    border-radius: 5px;
-    text-decoration: unset;
-}
 
 .text_wrapper {
     padding: 20px;
