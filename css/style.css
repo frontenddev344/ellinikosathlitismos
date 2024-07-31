@@ -959,7 +959,7 @@ input.form-control.sub_btn:hover {
 .newsletter-heading h4 {
     font-size: 1.5625rem;
     margin-bottom: 10px;
-    color: #363692;
+    color: var(--primary-color);
 }
 
 .newsletter-heading p {
@@ -979,8 +979,8 @@ input.form-control.sub_btn:hover {
     width: 19%;
     height: 45px;
     border: none;
-    background: #363692;
-    border: 1px solid #363692;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
     color: #fff;
     font-size: 1rem;
     transition: all 0.3s linear;
@@ -988,7 +988,7 @@ input.form-control.sub_btn:hover {
 
 .news-form button:hover {
     background: transparent;
-    color: #363692;
+    color: var(--primary-color);
 }
 
 :focus-visible {
@@ -1003,7 +1003,7 @@ input.form-control.sub_btn:hover {
 
 .download-app .newsletter-wrap {
     max-width: 100%;
-    background: #363692;
+    background: var(--primary-color);
     box-shadow: none;
 }
 
