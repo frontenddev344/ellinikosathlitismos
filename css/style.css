@@ -129,7 +129,7 @@ header {
 /* banner styling  start */
 .home_banner {
     height: 500px;
-    background-image: url(../img/bannerhome.webp);
+    background-image: url(../img/homebanner.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +139,6 @@ header {
 .home_banner::before {
     position: absolute;
     content: '';
-    background: #000000a8;
     width: 100%;
     height: 100%;
     z-index: 0;
