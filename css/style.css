@@ -444,7 +444,7 @@ a:focus {
 }
 
 .footer {
-    background-color: #0F1113;
+    background-color:var(--primary-color);
     padding: 40px 0;
 }
 
