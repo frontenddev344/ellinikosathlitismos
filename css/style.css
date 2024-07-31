@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 ul,
@@ -128,7 +128,7 @@ header {
 
 /* banner styling  start */
 .home_banner {
-    height: 500px;
+    height: 700px;
     background-image: url(../img/homebanner.jpg);
     background-size: cover;
     background-position: center;
@@ -140,28 +140,41 @@ header {
     position: absolute;
     content: '';
     width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
     height: 100%;
     z-index: 0;
+}
+
+.detail {
+    padding: 60px 0;
+    text-align: center;
 }
 
 .banner_box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items: start;
     height: 100%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    color: #fff;
+    color: var(--secondary-color);
     width: 80%;
     transform: translate(-50%, -50%);
 }
 
 .banner_box h1 {
-    font-size: 45px;
+    font-size: 85px;
     text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.banner_box span {
+    font-size: 20px;
+    color: var(--secondary-color);
 }
 
 .banner_box p {
