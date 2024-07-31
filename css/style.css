@@ -193,13 +193,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('../img/soccer.jpg');
     height: 350px;
     min-width: 300px;
     background-size: cover;
     background-position: center center;
 }
-
+.text_wrapper.eco_one{
+    background: url('../img/soccer.jpg');
+}
 .text_wrapper.two {
     background: url('../img/basketball.jpg');
 
