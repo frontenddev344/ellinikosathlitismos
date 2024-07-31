@@ -208,7 +208,9 @@ header {
 }
 
 .text_wrapper.three {
-    background: url(../img/wrapperthree.jpg);
+    background: url(../img/handball.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .text_wrapper.four {
