@@ -478,10 +478,10 @@ a.contact_btn:hover {
 }
 
 /*END FOOTER SOCIAL DESIGN*/
-.single_footer h4 img {
-    max-width: 150px;
+.single_footer img {
+    width: 190px;
+    filter: brightness(6);
 }
-
 
 .single_footer h4 {
     color: #fff;
