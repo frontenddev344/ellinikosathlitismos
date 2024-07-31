@@ -213,30 +213,6 @@ header {
     background: url(../img/wrapperfour.jpg);
 }
 
-.text_wrapper.six {
-    background: url(../img/wrappersix.jpg);
-    height: 720px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    justify-content: center;
-}
-
-.text_wrapper.seven {
-    background: url(../img/wrapperseven.jpg);
-}
-
-.text_wrapper.Eight {
-    background: url(../img/wrappereight.jpg);
-}
-
-.text_wrapper.nine {
-    background: url(../img/wrappernine.jpg);
-}
-
-.text_wrapper.ten {
-    background: url(../img/wrapperten.jpg);
-}
 
 .text_wrapper p {
     transition: 0.5s ease all;
@@ -291,14 +267,6 @@ section.affordable {
     margin-bottom: 20px;
 }
 
-.text_wrapper.five {
-    height: 720px;
-    background: url(../img/wrapperfive.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    justify-content: center;
-}
 
 .text_wrapper::before {
     position: absolute;
