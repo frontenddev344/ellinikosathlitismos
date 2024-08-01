@@ -306,11 +306,12 @@ section.sports {
 .soccer_img {
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 
 .soccer_img img {
-    width: 300px;
-    height: 460px;
+    width: 320px;
+    height: 480px;
     object-fit: cover;
     border-radius: 10px;
 }
