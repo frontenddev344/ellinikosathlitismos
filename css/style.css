@@ -298,6 +298,27 @@ section.sports {
 }
 
 /*sports styling end */
+/* soccer styling start */
+.soccer {
+    padding: 60px 0;
+}
+
+.soccer_img {
+    display: flex;
+    /* width: 50%; */
+}
+
+.soccer_img img {
+    width: 300px;
+    height: 460px;
+    object-fit: cover;
+}
+
+img.second {
+    margin-top: 200px;
+}
+
+/* soccer styling end */
 /*privacy-policy start*/
 .privacy__section {
     position: relative;
