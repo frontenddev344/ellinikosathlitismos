@@ -323,6 +323,22 @@ img.second {
     text-align: left;
 }
 
+.soccer_box:nth-of-type(6) {
+    border-bottom: none;
+}
+
+.soccer_box {
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.soccer_img {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
 /* soccer styling end */
 /*privacy-policy start*/
 .privacy__section {
