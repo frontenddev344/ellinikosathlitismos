@@ -335,6 +335,17 @@ img.second {
     padding-bottom: 10px;
 }
 
+.row.football {
+    display: flex;
+}
+
+.soccer_one {
+    width: 50%;
+}
+
+.soccer_two {
+    width: 50%;
+}
 
 
 /* soccer styling end */
