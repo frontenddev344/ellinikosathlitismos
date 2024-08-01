@@ -307,6 +307,7 @@ section.sports {
     display: flex;
     gap: 15px;
     justify-content: center;
+    align-items: start;
 }
 
 .soccer_img img {
@@ -322,6 +323,7 @@ img.second {
 
 .soccer_box h2 {
     text-align: left;
+    font-size: 24px;
 }
 
 .soccer_box:nth-of-type(6) {
@@ -333,12 +335,7 @@ img.second {
     padding-bottom: 10px;
 }
 
-.soccer_img {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* soccer styling end */
 /*privacy-policy start*/
