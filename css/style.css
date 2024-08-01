@@ -339,11 +339,10 @@ img.second {
 }
 
 .row.football {
+    row-gap: 40px;
     display: flex;
     margin-top: 40px;
 }
-
-
 .football_banner {
     height: 700px;
     background-image: url(../img/footballbanner.jpg);
