@@ -311,8 +311,8 @@ section.sports {
 }
 
 .soccer_img img {
-    width: 300px;
-    height: 420px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -343,10 +343,6 @@ img.second {
     margin-top: 40px;
 }
 
-
-.soccer_two {
-    width: 100%;
-}
 
 .football_banner {
     height: 700px;
