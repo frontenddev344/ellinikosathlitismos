@@ -432,7 +432,24 @@ img.second {
 
 /* basketball styling end */
 /* handball section start */
+.handball {
+    height: 700px;
+    background-image: url(../img/handballbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+.handball::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
 /* handball section end */
 /*privacy-policy start*/
 .privacy__section {
