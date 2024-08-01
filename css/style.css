@@ -305,17 +305,22 @@ section.sports {
 
 .soccer_img {
     display: flex;
-    /* width: 50%; */
+    gap: 15px;
 }
 
 .soccer_img img {
     width: 300px;
     height: 460px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 img.second {
     margin-top: 200px;
+}
+
+.soccer_box h2 {
+    text-align: left;
 }
 
 /* soccer styling end */
