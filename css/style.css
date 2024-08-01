@@ -343,6 +343,7 @@ img.second {
     display: flex;
     margin-top: 40px;
 }
+
 .football_banner {
     height: 700px;
     background-image: url(../img/footballbanner.jpg);
@@ -389,6 +390,27 @@ img.second {
 }
 
 /* soccer styling end */
+/* volleyball styling start */
+.volleyball {
+    height: 700px;
+    background-image: url(../img/volleyballbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.volleyball::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
+
+/* volleyball styling end */
 /*privacy-policy start*/
 .privacy__section {
     position: relative;
