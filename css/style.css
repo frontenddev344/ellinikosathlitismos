@@ -66,8 +66,8 @@ h2 {
 }
 
 .active {
-    color: #fff !important;
-    border-bottom: 1px solid #fff;
+    color: #000 !important;
+    border-bottom: 2px solid #000;
 }
 
 /* navbar styling  */
@@ -103,9 +103,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.active {
-    border-bottom: 2px solid #fff;
-}
+
 
 .open {
     display: none;
