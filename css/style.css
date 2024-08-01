@@ -333,6 +333,9 @@ img.second {
 .soccer_box {
     border-bottom: 1px solid var(--primary-color);
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .row.football {
@@ -340,12 +343,9 @@ img.second {
     margin-top: 40px;
 }
 
-.soccer_one {
-    width: 50%;
-}
 
 .soccer_two {
-    width: 50%;
+    width: 100%;
 }
 
 .football_banner {
