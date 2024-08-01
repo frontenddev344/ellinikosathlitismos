@@ -311,9 +311,9 @@ section.sports {
 }
 
 .soccer_img img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+    width: 150px;
+    height: 180px;
+    object-fit: contain;
     border-radius: 10px;
 }
 
@@ -409,6 +409,7 @@ img.second {
     height: 100%;
     z-index: 0;
 }
+
 /* volleyball styling end */
 /* basketball styling start */
 .basketball {
@@ -450,6 +451,7 @@ img.second {
     height: 100%;
     z-index: 0;
 }
+
 /* handball section end */
 /*privacy-policy start*/
 .privacy__section {
