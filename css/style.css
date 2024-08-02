@@ -114,9 +114,9 @@ h2 {
 }
 
 header {
-    position: relative;
+    position: sticky;
     z-index: 1;
-    background: transparent;
+    background: #fff;
     font-size: 18px;
     padding: 14px 0;
     font-weight: 700;
@@ -124,6 +124,7 @@ header {
     color: #000000;
     width: 100%;
     transition: 0.3s;
+    top: 0;
 }
 
 /* banner styling  start */
