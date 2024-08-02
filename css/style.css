@@ -1134,3 +1134,7 @@ section.newsletter.download-app {
     height: 100%;
     z-index: 0;
 }
+
+section.terms_conditons {
+    padding: 60px 0;
+}
