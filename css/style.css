@@ -266,6 +266,10 @@ section.sports {
     padding: 60px 0;
 }
 
+section.sports .row {
+    row-gap: 30px;
+}
+
 .text_wrapper h2 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -1061,6 +1065,7 @@ section.newsletter.download-app {
     height: 470px;
     object-fit: cover;
 }
+
 .blog_volley {
     height: 400px;
     background-image: url(../img/blogvolleybanner.jpg);
@@ -1079,6 +1084,7 @@ section.newsletter.download-app {
     height: 100%;
     z-index: 0;
 }
+
 .blog_volleytwo {
     height: 400px;
     background-image: url(../img/volleyballbanner.jpg);
@@ -1097,6 +1103,7 @@ section.newsletter.download-app {
     height: 100%;
     z-index: 0;
 }
+
 .blog_hand {
     height: 400px;
     background-image: url(../img/handballblogb.jpg);
