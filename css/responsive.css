@@ -65,9 +65,10 @@
         margin-bottom: 0;
         margin-top: 20px;
     }
+
     .seven h2 {
         width: 80%;
-       
+
     }
 }
 
@@ -103,6 +104,9 @@
         padding: 40px 0;
     }
 
+    .soccer {
+        padding: 40px 0;
+    }
 }
 
 
@@ -146,9 +150,10 @@
     img.second {
         display: none;
     }
+
     .seven h2 {
         width: 100%;
-       
+
     }
 
 }
