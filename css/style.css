@@ -298,6 +298,87 @@ section.sports {
 }
 
 /*sports styling end */
+
+.page_inner p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.page_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.page_casino h3 {
+    font-size: 21px;
+}
+
+.pageinner {
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+    background: var(--secondary-color);
+    height: auto;
+    padding: 20px 40px 40px 40px;
+}
+
+.page_casino img {
+    transition: all .3s linear;
+}
+
+.page_casino img:hover {
+
+    filter: brightness(0.5);
+}
+
+.page_casino img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.page_casino {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.page_casino p {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.page_casino h3 {
+    margin-top: 10px;
+}
+
+.pages_section h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+a.common_btn {
+    text-decoration: none;
+    padding: 8px 60PX;
+    color: #fff;
+    background: var(--primary-color);
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+a.common_btn:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+}
+
 /* soccer styling start */
 .soccer {
     padding: 60px 0;
