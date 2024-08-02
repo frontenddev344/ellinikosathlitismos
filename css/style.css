@@ -1061,3 +1061,21 @@ section.newsletter.download-app {
     height: 470px;
     object-fit: cover;
 }
+.blog_volley {
+    height: 400px;
+    background-image: url(../img/blogvolleybanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_volley::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
