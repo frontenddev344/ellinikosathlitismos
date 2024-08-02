@@ -71,10 +71,7 @@
         margin-top: 20px;
     }
 
-    .seven h2 {
-        width: 80%;
 
-    }
 }
 
 
@@ -83,6 +80,8 @@
         font-size: 55px;
         text-align: left;
     }
+
+
 
     .banner_box span {
         font-size: 18px;
@@ -128,6 +127,19 @@
 @media screen and (max-width:575px) {
     .box img {
         width: 90px;
+    }
+
+    .seven h2 {
+        display: block;
+        
+    }
+
+    .banner_box h1 {
+        font-size: 35px;
+    }
+
+    .banner_box span {
+        font-size: 16px;
     }
 
     .row.upcoming_events {
