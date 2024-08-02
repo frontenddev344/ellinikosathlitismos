@@ -328,7 +328,7 @@ a.common_btn:hover {
     text-align: center;
 }
 
-.blog_box h2 {
+.blog_box h3 {
     font-size: 24px;
 }
 
@@ -338,6 +338,10 @@ a.common_btn:hover {
 
 .blog_box img {
     margin-bottom: 20px;
+}
+
+.blog_h h2 {
+    margin-bottom: 50px;
 }
 
 /* blog post styling end */
