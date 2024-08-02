@@ -349,6 +349,11 @@ a.common_btn:hover {
     margin-bottom: 20px;
     height: 500px;
     object-fit: cover;
+    transition: all 0.3s linear;
+}
+
+.blog_box img:hover {
+    filter: grayscale(1);
 }
 
 .blog_h h2 {
