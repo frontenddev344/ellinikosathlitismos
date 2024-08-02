@@ -583,7 +583,7 @@ img.second {
 .privacy__section {
     position: relative;
     height: 400px;
-    background-image: url(../img/privacybanner.jpg);
+    background-image: url(../img/privacy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -632,6 +632,10 @@ img.second {
 
 /* privacy styling end */
 /*terms start*/
+section.terms_conditons {
+    padding: 60px 0;
+}
+
 .terms__section {
     position: relative;
     height: 400px;
@@ -1133,8 +1137,4 @@ section.newsletter.download-app {
     opacity: 0.75;
     height: 100%;
     z-index: 0;
-}
-
-section.terms_conditons {
-    padding: 60px 0;
 }
