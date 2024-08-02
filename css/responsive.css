@@ -4,6 +4,11 @@
 
     }
 
+    .banner_box h1 {
+        font-size: 75px;
+
+    }
+
     .open {
         display: block;
         color: var(--primary-color);
@@ -75,7 +80,17 @@
 
 @media screen and (max-width:767px) {
     .banner_box h1 {
-        font-size: 35px;
+        font-size: 55px;
+        text-align: left;
+    }
+
+    .banner_box span {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .home_banner {
+        height: 500px;
 
     }
 
@@ -138,9 +153,6 @@
         margin-bottom: 5px;
     }
 
-    .banner_box h1 {
-        font-size: 30px;
-    }
 
     .soccer_img {
         display: flex;
