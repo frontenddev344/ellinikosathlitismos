@@ -334,8 +334,10 @@ section.sports {
 }
 
 .page_casino img {
-    height: 250px;
+    height: 50%;
+    width: 500px;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .page_casino {
