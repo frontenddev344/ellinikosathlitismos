@@ -347,9 +347,13 @@ a.common_btn:hover {
 
 .blog_box img {
     margin-bottom: 20px;
-    height: 500px;
+    height: 290px;
     object-fit: cover;
     transition: all 0.3s linear;
+}
+
+.blog .row {
+    row-gap: 20px;
 }
 
 .blog_box img:hover {
@@ -933,7 +937,7 @@ a.contact_btn:hover {
 
 .news-form input {
     height: 45px;
-    width: 80%;
+    width: 70%;
     padding: 10px;
     border: none;
     background-color: #e8e8e8;
