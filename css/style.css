@@ -360,7 +360,9 @@ a.common_btn:hover {
     margin-bottom: 50px;
 }
 
-
+.left_side_ab p {
+    margin-top: 30px !important;
+}
 
 .after_banner_section.section {
     background: whitesmoke;
