@@ -65,6 +65,10 @@
         margin-bottom: 0;
         margin-top: 20px;
     }
+    .seven h2 {
+        width: 80%;
+       
+    }
 }
 
 
@@ -141,6 +145,10 @@
 
     img.second {
         display: none;
+    }
+    .seven h2 {
+        width: 100%;
+       
     }
 
 }
