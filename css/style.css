@@ -455,7 +455,7 @@ img.second {
 }
 
 .football_banner {
-    height: 700px;
+    height: 500px;
     background-image: url(../img/footballbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -502,7 +502,7 @@ img.second {
 /* soccer styling end */
 /* volleyball styling start */
 .volleyball {
-    height: 700px;
+    height: 500px;
     background-image: url(../img/volleyballbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -523,7 +523,7 @@ img.second {
 /* volleyball styling end */
 /* basketball styling start */
 .basketball {
-    height: 700px;
+    height: 500px;
     background-image: url(../img/basketballbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -544,7 +544,7 @@ img.second {
 /* basketball styling end */
 /* handball section start */
 .handball {
-    height: 700px;
+    height: 500px;
     background-image: url(../img/handballbanner.jpg);
     background-size: cover;
     background-position: center;
@@ -993,4 +993,8 @@ section.newsletter.download-app {
     opacity: 0.75;
     height: 100%;
     z-index: 0;
+}
+
+.banner_box.blog h1 {
+    font-size: 40px;
 }
