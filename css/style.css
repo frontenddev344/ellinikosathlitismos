@@ -1097,3 +1097,21 @@ section.newsletter.download-app {
     height: 100%;
     z-index: 0;
 }
+.blog_hand {
+    height: 400px;
+    background-image: url(../img/handballblogb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_hand::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
