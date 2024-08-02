@@ -351,6 +351,8 @@ a.common_btn:hover {
     margin-bottom: 50px;
 }
 
+
+
 .after_banner_section.section {
     background: whitesmoke;
 }
@@ -369,6 +371,42 @@ a.common_btn:hover {
 }
 
 /* blog post styling end */
+/* home aside styling */
+.events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.box img {
+    width: 140px;
+}
+
+.box img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.box2 h4 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.row.upcoming_events {
+    border-left: 2px solid var(--primary-color);
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.row.upcoming_events h3 {
+    color: var(--primary-color);
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+/* home aside styling end */
 /* soccer styling start */
 .soccer {
     padding: 60px 0;
@@ -936,3 +974,22 @@ section.newsletter.download-app {
 }
 
 /* email styling start */
+/* banner styling blog start */
+.blog_base {
+    height: 400px;
+    background-image: url(../img/homebanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_base::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
