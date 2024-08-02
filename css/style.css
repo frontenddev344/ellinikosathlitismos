@@ -317,6 +317,30 @@ a.common_btn:hover {
     background: transparent;
 }
 
+/* blog post styling start */
+.blog {
+    padding: 60px 0;
+}
+
+.blog_box {
+    background: #ededed;
+    padding: 20px 20px 30px;
+    text-align: center;
+}
+
+.blog_box h2 {
+    font-size: 24px;
+}
+
+.blog_box p {
+    margin-bottom: 30px;
+}
+
+.blog_box img {
+    margin-bottom: 20px;
+}
+
+/* blog post styling end */
 /* soccer styling start */
 .soccer {
     padding: 60px 0;
