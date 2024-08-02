@@ -163,9 +163,9 @@
         display: none;
     }
 
-    .seven h2 {
-        width: 100%;
-
+    .seven h2:after,
+    .seven h2:before {
+        display: none;
     }
 
     .news-form button {
