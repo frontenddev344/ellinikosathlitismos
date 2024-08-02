@@ -338,6 +338,8 @@ a.common_btn:hover {
 
 .blog_box img {
     margin-bottom: 20px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .blog_h h2 {
