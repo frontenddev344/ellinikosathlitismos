@@ -1037,3 +1037,27 @@ section.newsletter.download-app {
     z-index: 0;
 }
 
+.blog_foot2 {
+    height: 400px;
+    background-image: url(../img/footballblog2banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_foot2::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
+
+.left_side_ab img {
+    max-width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
