@@ -998,3 +998,22 @@ section.newsletter.download-app {
 .banner_box.blog h1 {
     font-size: 40px;
 }
+.blog_baseone {
+    height: 400px;
+    background-image: url(../img/basketblofb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blog_baseone::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0.75;
+    height: 100%;
+    z-index: 0;
+}
+
